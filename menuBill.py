@@ -33,8 +33,8 @@ while True:
         print(f"{item} added to cart.")
     else:
         print("Item not found in the menu.")
-print("-------Your cart--------")
+print("-------Your cart--------")  
 for item in cart:
     print(item)
-print(f"Total: ${total:.2f}")
-# Display the total amount
+print(f"Total: ${total:.2f}") 
+# Display the total amount         
